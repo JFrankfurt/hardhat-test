@@ -12,6 +12,10 @@
     "hardhat": "^2.2.0",
     "prettier": "^2.2.1",
     "ts-node": "^9.1.1",
+    "typechain": "^3.0.0",
     "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "build:typechain": "npx typechain --target=ethers-v5 ./artifacts/contracts/**/Token.json"
   }
 }
